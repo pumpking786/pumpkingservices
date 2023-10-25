@@ -179,7 +179,7 @@ footer{
         height: 600px;
         width: 100%;
     }
-    .left div{
+/*     .left div{
         position: absolute;
         left: -35px;
         top: -7px;
@@ -211,5 +211,5 @@ footer{
         text-decoration: none;
         padding: 0 10px;
         color: var(--base-100);
-    }
+    } */
 }
