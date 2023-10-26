@@ -236,22 +236,20 @@ footer{
     }
     .profile img{
         position: absolute;
-        left: 140px;
-        top: 75px;
-        margin:5px;
-        width: 140px;
+        margin: -35px 95px;
+        width: 120px;
     }
     .freebie img{
         position: absolute;
         width: 60px;
-        left: 400px;
-        top: 100px;
+        left: 313px;
+        top: 80px;
     }
     .navbar li{
         color: white;
         display: inline-block;
         font-size: 15px;
-        padding: 34px 23px;
+        padding: 30px 10px;
     }
     .nav-links a{
         display: none;
