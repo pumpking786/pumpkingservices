@@ -204,7 +204,7 @@ section{
     transition: transform 0.2s ease-in;
     display: flex;
     align-items: center;
-    margin: 20px;
+    margin: 19px;
     font-size: 22px;
 }
 #contact .social-media:hover{
