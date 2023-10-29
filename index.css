@@ -92,7 +92,7 @@ h1{
     text-decoration: underline;
 }
 section{
-    min-height: 100vh;
+    min-height: 82vh;
     padding: 70px 0;
 }
 #welcome-section{
@@ -241,7 +241,7 @@ footer{
           left: 40px;
       position: absolute;
         margin: -35px 95px;
-        width: 120px;
+        width: 145px;
     }
     .freebie img{
         position: absolute;
@@ -261,4 +261,8 @@ footer{
         padding: 0 10px;
         color: var(--base-100);
     }
+    section{
+    min-height: 82vh;
+    padding: 100px 0;
+}
 }
