@@ -241,6 +241,9 @@ h2{
         font-size: 12.4px;
         text-align: center;
     }
+    #header-img{
+        margin-left: 15px;
+    }
     .profile img{
         left: -35px;
         position: absolute;
