@@ -126,7 +126,6 @@ section{
         z-index: 10;
         display: flex;
         justify-content: center;
-        position: fixed;
         top: 0;
         width: 101%;
         background-color: black;
