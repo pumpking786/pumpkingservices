@@ -1,3 +1,9 @@
+#search{
+    font-size: 30px;
+}
+#search input{
+    font-size: 20px;
+}
 .left {
     color: green;
     position: absolute;
@@ -188,6 +194,7 @@ h2{
 }
 .header{
     font-family: "fraunces";
+    font-size: 30px;
     margin: 10px 0;
     color: var(--header-text);
 }
