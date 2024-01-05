@@ -75,12 +75,16 @@
         </section> 
         <section id="for_sale">
             <h2>For Sale</h2>
-            <div class="product-cards">
+            <form id="search">
+                <i class="ri-search-line"></i>
+                <input type="text" id="search-item" placeholder="Search products" onkeyup="search()">
+            </form><br>
+            <div class="product-cards" id="product-cards">
                 <div class="card">
                     <div class="product-image product1"></div>
                     <div class="inner-card">
                         <div class="author">Bobby Fischer</div>
-                        <h1 class="header">My 60 memorable games</h1>
+                        <h5 class="header">My 60 memorable games</h5>
                         <p class="content">
                             The 60 games annotated in this volume were al during 1957 through '67.
                         </p>
@@ -97,7 +101,7 @@
                     <div class="product-image product2"></div>
                     <div class="inner-card">
                         <div class="author">Richard Palliser</div>
-                        <h1 class="header">Starting out: sicilian najdorf</h1>
+                        <h5 class="header">Starting out: sicilian najdorf</h5>
                         <p class="content">
                             This book will tell you everything you need to know about sicilian najdorf opening.
                         </p>
@@ -114,7 +118,7 @@
                     <div class="product-image product3"></div>
                     <div class="inner-card">
                         <div class="author">John Watson and Graham Burgess</div>
-                        <h1 class="header">Chess openings for kids</h1>
+                        <h5 class="header">Chess openings for kids</h5>
                         <p class="content">
                             In this book, we're going to show you 50 Mighty Openings that you can use in your game of Chess.
                         </p>
@@ -129,10 +133,6 @@
                 </div>
             </div>
         </section>
-        <script>
-            function messanger(){
-               location.href='https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F102454482876255%2F%3Fmessaging_source%3Dsource%253Apages%253Amessage_shortlink%26source_id%3D1441792%26recurring_notification%3D0';
-            }
-        </script>
+        <script src="product.js"></script>
     </body>
     </html>
