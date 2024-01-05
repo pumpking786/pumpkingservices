@@ -22,7 +22,7 @@ function messanger(){
 
                 }
         }
-const searching = () =>{
+        const searching = () =>{
             const searchbox= document.getElementById("search-author").value.toUpperCase();
             const storeitems = document.getElementById("product-cards")
             const product = document.querySelectorAll(".card")
