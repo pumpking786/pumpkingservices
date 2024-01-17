@@ -1,5 +1,5 @@
 function messanger(){
-            location.href='https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F102454482876255%2F%3Fmessaging_source%3Dsource%253Apages%253Amessage_shortlink%26source_id%3D1441792%26recurring_notification%3D0';
+            location.href='https://www.facebook.com/profile.php?id=100093217033574';
 }
     const search = () =>{
                 const searchbox= document.getElementById("search-item").value.toUpperCase();
