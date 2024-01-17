@@ -2,7 +2,7 @@
     font-size: 30px;
 }
 #search input{
-    font-size: 20px; 
+    font-size: 20px;
     width: 200px;
 }
 .left {
@@ -137,22 +137,38 @@ h2{
     width: 60%;
     margin:auto;
     height: 520px;
-    border: 1px solid var(--text);
-    border-radius: 10px 10px 0 0;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.product1{
-    margin-bottom: 10px;
-    background-image: url(https://m.media-amazon.com/images/I/512Xt6UmOqL._AC_UF1000,1000_QL80_.jpg);
+.product-image.product1{
+    width: 63%;
+    height: 300px;
+    margin-bottom: 50px;
+    background-image: url(https://static-01.daraz.com.np/p/3a236f8e4bd727a69927f2c9a809d0a2.png);
 }
-.product2{
-    margin-bottom: 10px;
-    background-image: url(https://m.media-amazon.com/images/I/51LTWiartTL.jpg);
+.product-image.product2{
+    width: 63%;
+    height: 300px;
+    margin-bottom: 80px;
+    background-image: url(https://static-01.daraz.com.np/p/45d18d491b97da3809209ef753ad745d.png_750x750.jpg_.webp);
 }
-.product3{
-    margin-bottom: 10px;
-    background-image: url(https://m.media-amazon.com/images/I/81LCqOGp29L._AC_UF1000,1000_QL80_.jpg);
+.product-image.product3{
+    width: 63%;
+    height: 300px;
+    margin-bottom: 50px;
+    background-image: url(https://static.toiimg.com/thumb/resizemode-4,msid-88129314,imgsize-200,width-380/88129314.jpg);
+}
+.product-image.product4{
+    width: 63%;
+    height: 280px;
+    margin-bottom: 150px;
+    background-image: url(https://store.hifuturegroup.com/cdn/shop/products/Blue5.jpg?v=1667809483);
+}
+.product-image.product5{
+    width: 63%;
+    height: 300px;
+    margin-bottom: 80px;
+    background-image: url(https://neostore.com.np/assets/uploads/w16_2.jpg);
 }
 .card{
     background-color: var(--white);
@@ -290,10 +306,38 @@ h2{
         width: 45%;
         margin:auto;
         height: 230px;
-        border: 1px solid var(--text);
-        border-radius: 10px 10px 0 0;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .product-image.product1{
+        width: 90%;
+        height: 300px;
+        margin-bottom: 20px;
+        background-image: url(https://static-01.daraz.com.np/p/3a236f8e4bd727a69927f2c9a809d0a2.png);
+    }
+    .product-image.product2{
+        width: 90%;
+        height: 300px;
+        margin-bottom: 20px;
+        background-image: url(https://static-01.daraz.com.np/p/45d18d491b97da3809209ef753ad745d.png_750x750.jpg_.webp);
+    }
+    .product-image.product3{
+        width: 90%;
+        height: 300px;
+        margin-bottom: 20px;
+        background-image: url(https://static.toiimg.com/thumb/resizemode-4,msid-88129314,imgsize-200,width-380/88129314.jpg);
+    }
+    .product-image.product4{
+        width: 90%;
+        height: 300px;
+        margin-bottom: 20px;
+        background-image: url(https://store.hifuturegroup.com/cdn/shop/products/Blue5.jpg?v=1667809483);
+    }
+    .product-image.product5{
+        width: 90%;
+        height: 300px;
+        margin-bottom: 20px;
+        background-image: url(https://neostore.com.np/assets/uploads/w16_2.jpg);
     }
     #video{
         width: 100%;
