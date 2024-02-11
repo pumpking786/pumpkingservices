@@ -1,5 +1,5 @@
 function messanger(){
-            location.href='https://www.facebook.com/profile.php?id=100093217033574';
+            location.href='';
 }
     const search = () =>{
                 const searchbox= document.getElementById("search-item").value.toUpperCase();
