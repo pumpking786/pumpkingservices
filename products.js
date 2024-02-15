@@ -1,5 +1,5 @@
 function messanger(){
-            location.href='https://www.facebook.com/profile.php?id=61555977617470';
+            location.href='https://www.facebook.com/permalink.php?story_fbid=pfbid02WvyuyEUSXVXbk8K8wqd737mDfwV9A5TWnxSAyFrBZCKLMN9j8qnVqvA34igWHVoHl&id=61555977617470';
 }
     const search = () =>{
                 const searchbox= document.getElementById("search-item").value.toUpperCase();
