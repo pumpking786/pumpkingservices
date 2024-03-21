@@ -8,7 +8,7 @@
 }
 .right{
     position: absolute;
-    right: 0px;
+    right: -60px;
     top: 5px;
     display: inline-block;
 }
