@@ -22,10 +22,17 @@
                 <li><a href="#contact" class="nav-link">Getconnected</a></li>
             </ul>
             <div class="right">
-                <ul class="navbar">
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()"><a href="#"><i class="ri-corner-down-left-fill"></i></a></li>
                     <li><a href="#"class="active">About</a></li>
                     <li><a href="products.html"class="other">Products</a></li>
                     <li><a href="contact.html"class="other">Contact us</a></li>
+                </ul>
+                <ul class="navbar">
+                    <li class="hideonMobile"><a href="#"class="active">About</a></li>
+                    <li class="hideonMobile"><a href="products.html"class="other">Products</a></li>
+                    <li class="hideonMobile"><a href="contact.html"class="other">Contact us</a></li>
+                    <li class="menu-button" onclick="showSidebar()"><a href="#"><i class="ri-menu-fill"></i></a></li>
                 </ul>
                 </div>
         </nav>
@@ -94,4 +101,5 @@
         </div>
     
 </body>
+<script src="index.js"></script>
 </html>
