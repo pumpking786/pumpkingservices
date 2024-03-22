@@ -282,13 +282,15 @@ footer{
     .logo img{
         display: block;
     }
-    #welcome-section{
+    #welcome-section h1,#welcome-section p{
+        margin-left: 80px;
+    }
+    /* #welcome-section{
         margin-right: 32px;
-    }
+    }*/
     h1{
-        margin: 0px 50px;
         font-size: 45px;
-    }
+    } 
     #projects .project-title{
         height: 600px;
         width: 100%;
