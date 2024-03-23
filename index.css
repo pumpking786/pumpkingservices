@@ -345,14 +345,14 @@ footer{
     .profile img{
         left: 25px;
         position: absolute;
-        margin: -35px 95px;
+        margin: -25px 95px;
         width: 145px;
     }
     .freebie img{
         position: absolute;
         width: 60px;
-        left: 300px;
-        top: 80px;
+        left: 295px;
+        top: 90px;
     }
     .navbar li{
         color: white;
@@ -375,13 +375,16 @@ footer{
     .profile img{
         left: 250px;
         position: absolute;
-        margin: -35px 95px;
+        margin: -25px 95px;
         width: 90px;
     }
     .freebie img{
         position: absolute;
         width: 60px;
-        left: 608px;
-        top: 80px;
+        left: 600px;
+        top: 90px;
+    }
+    #welcome-section h1{
+        margin-top: 140px;
     }
 }
