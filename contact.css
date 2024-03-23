@@ -1,3 +1,9 @@
+.logo img{
+    display: none;
+    width: 60px;
+    object-fit: contain;
+    margin-top: -15px;
+}
 .left {
     color: green;
     position: absolute;
@@ -11,6 +17,38 @@
     right: 42px;
     top: -10px;
     display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+.menu-button a{
+    display: none;
+}
+.sidebar{
+    position: fixed;
+    top: -20px;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: white;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.sidebar a{
+    font-size: 30px;
+    width: 100%;
+}
+.sidebar .other{
+    color: black;
 }
 #navbar{
     z-index: 10;
@@ -192,4 +230,35 @@ section{
           color: white;
       }
       
+}
+@media only screen and (width<700px){
+    .logo img{
+        display: block;
+    }
+    #projects .project-title{
+        height: 600px;
+        width: 100%;
+    }
+    .hideonMobile a{
+        display: none;
+    }
+    .menu-button a{
+        display: block;
+        width: 100%;
+        color: white;
+    }
+    .right{
+        position: absolute;
+        right: 22px;
+        top: -10px;
+        display: inline-block;
+    }
+    .left div{
+        position: absolute;
+        top: -7px;
+        left: 70px;
+        color: green;
+        font-size: 23px;
+        text-align: center;
+    }
 }

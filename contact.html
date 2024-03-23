@@ -15,13 +15,21 @@
         <header>
             <nav id="navbar">
                     <div class="left">
+                        <label class="logo"><img src="image/pumpking.png" alt=""></label>
                         <div>PumpKinG Services</div> 
                     </div>
                 <div class="right">
-                    <ul class="navbar">
+                    <ul class="sidebar">
+                        <li onclick="hideSidebar()"><a href="#"><i class="ri-corner-down-left-fill ri-3x"></i></a></li>
                         <li><a href="index.html"class="other">About</a></li>
                         <li><a href="products.html"class="other">Products</a></li>
                         <li><a href="#"class="active">Contact us</a></li>
+                    </ul>
+                    <ul class="navbar">
+                        <label class="menu-button" onclick="showSidebar()"><a href="#"><i class="ri-menu-fill ri-3x"></i></a></label>
+                        <li class="hideonMobile"><a href="index.html"class="other">About</a></li>
+                        <li class="hideonMobile"><a href="products.html"class="other">Products</a></li>
+                        <li class="hideonMobile"><a href="#"class="active">Contact us</a></li>
                     </ul>
                 </div>
             </nav>
@@ -89,6 +97,7 @@
                 </a>
         </div>
         </section>
+        <script src="contact.js"></script>
     </body>
     </html>
 
