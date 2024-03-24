@@ -332,9 +332,6 @@ footer{
     }
 }
 @media (max-width:1100px){
-    #navbar{
-        position: absolute;
-    }
     .left div{
         position: absolute;
         top: -7px;
