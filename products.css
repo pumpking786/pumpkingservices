@@ -16,14 +16,24 @@ ul{
     top: -20px;
     right: 0;
     height: 1000vh;
-    width: 260px;
+    width: 270px;
     z-index: 999;
     background-color: lightcyan;
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-    display: none;
+
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    transform: translateX(300px);
+    transition: all .5s ease;
+}
+.show{
+    transform: translateX(0px);
+
+}
+.sidebar li:first-child{
+    margin-top: 80px;
+ 
 }
 .sidebar li{
     text-align: center;
@@ -442,6 +452,13 @@ h2{
     }
 }
 @media only screen and (width<700px){
+    .menu{
+        font-size: 1.9rem;
+    }
+    .navbar{
+        margin-top: 19px;
+        margin-right: -23px;
+    }
     #nav-bar{
         background-color: var(--green);
     }

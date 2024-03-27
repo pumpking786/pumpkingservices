@@ -33,10 +33,16 @@ ul{
     z-index: 999;
     background-color: lightcyan;
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-    display: none;
+
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    transform: translateX(300px);
+    transition: all .5s ease;
+}
+.show{
+    transform: translateX(0px);
+
 }
 .sidebar li{
     margin-top: 50px;
@@ -322,6 +328,13 @@ footer{
         height: 600px;
         width: 100%;
     }
+    .navbar{
+        margin-right: -5px;
+        margin-top: 20px;
+    }
+    .icon{
+        font-size: 1.8rem;
+    }
     .hideonMobile a{
         display: none;
     }
@@ -365,6 +378,7 @@ footer{
         display: none;
         text-decoration: none;
         padding: 0 10px;
+        
         color: var(--base-100);
     }
     section{

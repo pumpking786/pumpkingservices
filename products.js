@@ -43,11 +43,11 @@ function messanger(){
 
             }
     }
+    const sidebar = document.getElementById("productsidebar")
+
     function showSidebar(){
-        const sidebar= document.querySelector('.sidebar')
-        sidebar.style.display='flex'
+        sidebar.classList.add("show")
     }
     function hideSidebar(){
-        const sidebar= document.querySelector('.sidebar')
-        sidebar.style.display='none'
+        sidebar.classList.remove("show")
     }
