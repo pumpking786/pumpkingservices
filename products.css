@@ -43,6 +43,8 @@ ul{
 .sidebar a{
     font-family: "fraunces";
     font-size: 30px;
+    margin-top: 7px;
+    margin-right: -10px;
     width: 100%;
 }
 .sidebar .other{
