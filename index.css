@@ -284,8 +284,9 @@ footer{
         font-size: 30px;
         padding: 34px 17px;
     }
-}
-@media only screen and (width<1200px){
+    .nav-links{
+        display: none;
+    }
     #navbar{
         z-index: 10;
         display: flex;
@@ -298,6 +299,8 @@ footer{
         font-size: 20px;
         border-bottom: 1px solid var(--neutral-focus);
     }
+}
+@media only screen and (width<1200px){
     .nav-links a{
         display: none;
         text-decoration: none;
