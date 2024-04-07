@@ -12,6 +12,10 @@
     font-family: "fraunces";
     font-size: 40px;
 }
+.left a{
+    text-decoration: none;
+    color: green;
+}
 .right{
     position: absolute;
     right: 42px;

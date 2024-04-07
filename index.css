@@ -4,7 +4,11 @@
     object-fit: contain;
     margin-top: -15px;
 }
-.left {
+.left a{
+    text-decoration: none;
+    color: green;
+}
+.left{
     color: green;
     position: absolute;
     left: 60px;
@@ -357,7 +361,8 @@ footer{
         text-align: center;
     }
     .right{
-        right: -4px;
+        top: 28px;
+        right: 16px;
     }
     .profile img{
         left: 25px;
